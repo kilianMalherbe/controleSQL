@@ -15,19 +15,19 @@
 ### Création
 Exécutez la commande suivante :
 ```p
---mysql -h localhost -u root -p < schema.sql
+mysql -h localhost -u root -p < schema.sql
 ```
 
 ### Ajout des données
 Exécutez la commande suivante :
 ```p
---mysql -h localhost -u root -p < data.sql
+mysql -h localhost -u root -p < data.sql
 ```
 
 ### Requêtage
 Exécutez la commande suivante :
 ```p
---mysql -h localhost -u root -p < requetes.sql
+mysql -h localhost -u root -p < requetes.sql
 ```
 
 <div style="border: 2px dashed #998529; padding: 10px; background-color: #f2d13d33;">
