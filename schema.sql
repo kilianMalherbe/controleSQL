@@ -1,4 +1,4 @@
--- mysql -h localhost -u root -p < data.sql
+-- mysql -h localhost -u root -p < schema.sql
 
 USE kiceo;
 
@@ -7,7 +7,6 @@ DROP TABLE IF EXISTS Ligne;
 DROP TABLE IF EXISTS Jour;
 DROP TABLE IF EXISTS Horaire;
 DROP TABLE IF EXISTS Deservir;
-DROP TABLE IF EXISTS Correspondre;
 
 CREATE TABLE IF NOT EXISTS Station(
    id_station INT AUTO_INCREMENT,

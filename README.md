@@ -15,13 +15,13 @@
 ### Création
 Exécutez la commande suivante :
 ```p
---mysql -h localhost -u root -p < data.sql
+--mysql -h localhost -u root -p < schema.sql
 ```
 
 ### Ajout des données
 Exécutez la commande suivante :
 ```p
---mysql -h localhost -u root -p < schema.sql
+--mysql -h localhost -u root -p < data.sql
 ```
 
 ### Requêtage
@@ -52,7 +52,7 @@ Exécutez la commande suivante :
 
 | MCD | MLD |
 |-----------|-----------|
-| ![MCD]('https://kilianMalherbe.github.io/controleSQL/MCD/MCD.png') | ![MLD](https://kilianMalherbe.github.io/controleSQL/MCD/MLD.png) |
+| ![MCD]('https://kilianmalherbe.github.io/controleSQL/MCD/MCD.png') | ![MLD](https://kilianMalherbe.github.io/controleSQL/MCD/MLD.png) |
 
 ## Remarques
 
