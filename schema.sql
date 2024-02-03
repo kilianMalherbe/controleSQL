@@ -11,7 +11,7 @@ DROP TABLE IF EXISTS Deservir;
 CREATE TABLE IF NOT EXISTS Station(
    id_station INT AUTO_INCREMENT,
    nom_station VARCHAR(50)  NOT NULL,
-   id_station_repli INT,
+   id_station_repli INT NULL,
    PRIMARY KEY(id_station),
    FOREIGN KEY(id_station_repli) REFERENCES Station(id_station) -- Ajout de la station de repli
 );

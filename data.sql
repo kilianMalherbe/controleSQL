@@ -18,18 +18,19 @@ INSERT INTO Station (nom_station, id_station_repli) VALUES
 ('Madeleine', NULL),
 ('République', NULL),
 ('PIBS 2', NULL),
-('Petit Tohannic', 7),
 ('Delestraint', NULL),
 ('Kersec', NULL)
 ;
+
+INSERT INTO Station (nom_station, id_station_repli) VALUES  ('Petit Tohannic', 7);
 
 INSERT INTO Ligne (numero_ligne, nom_ligne, station_depart, station_arrivee) VALUES (2, 'Direction Kersec', 1, 8);
 INSERT INTO Ligne (numero_ligne, nom_ligne, station_depart, station_arrivee) VALUES (2, 'Direction P+R Ouest', 8, 1);
 
 INSERT INTO Horaire VALUES
-  ('6:32'), ('6:34'), ('6:37'), ('6:42'), ('6:46'), ('6:50'), ('6:51'), ('6:55'),
-  ('6:44'), ('6:47'), ('6:52'), ('6:56'), ('7:00'), ('7:01'), ('7:05'), ('7:02'),
-  ('7:06'), ('7:17'), ('7:21'), ('7:22'), ('7:26'), ('7:10'), ('7:12'),
+  ('6:32'), ('6:34'), ('6:37'), ('6:42'), ('6:46'), ('6:50'), ('6:51'), ('6:52'),
+  ('6:44'), ('6:47'), ('6:54'), ('6:55'), ('6:56'), ('6:57'), ('7:00'), ('7:01'), ('7:02'), ('7:05'),
+  ('7:06'), ('7:07'), ('7:11'), ('7:17'), ('7:21'), ('7:22'), ('7:26'), ('7:10'), ('7:12'),
   ('7:16'), ('7:27'), ('7:31'), ('7:32'), ('7:36');
 
 INSERT INTO Jour VALUES ('Lundi'), ('Mardi'), ('Mercredi'), ('Jeudi'), ('Vendredi');
