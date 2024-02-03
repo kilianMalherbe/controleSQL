@@ -52,7 +52,7 @@ Exécutez la commande suivante :
 
 | MCD | MLD |
 |-----------|-----------|
-| ![MCD]('https://kilianmalherbe.github.io/controleSQL/MCD/MCD.png') | ![MLD](https://kilianMalherbe.github.io/controleSQL/MCD/MLD.png) |
+| ![MCD](https://kilianMalherbe.github.io/controleSQL/MCD/MCD.png) | ![MLD](https://kilianMalherbe.github.io/controleSQL/MCD/MLD.png) |
 
 ## Remarques
 
